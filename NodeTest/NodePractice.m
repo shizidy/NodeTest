@@ -54,6 +54,8 @@ struct Node *constructList(void) {
         //设置当前结点为新结点
         cur = node;
     }
+    // 链表尾指向null
+    cur->next = NULL;
     return head;
 }
 
