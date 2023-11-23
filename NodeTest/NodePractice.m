@@ -10,6 +10,7 @@
 
 @implementation NodePractice
 
+#pragma mark - 链表反转
 /// 链表反转
 /// @param head 链表头部
 struct Node *reverseList(struct Node *head) {
@@ -32,6 +33,7 @@ struct Node *reverseList(struct Node *head) {
     return newH;
 }
 
+#pragma mark - 新建链表
 /// 新建链表
 struct Node *constructList(void) {
     //定义头结点
@@ -59,6 +61,7 @@ struct Node *constructList(void) {
     return head;
 }
 
+#pragma mark - 遍历打印链表数据
 /// 遍历打印链表数据
 /// @param head 链表头部
 void printList(struct Node *head) {
